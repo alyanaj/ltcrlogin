@@ -133,7 +133,7 @@ const reporter = new RunReporter();
 
    ];
 
-test.only('Partner pages checks NEW', async ({ page }) => {
+test('Partner pages checks NEW', async ({ page }) => {
   test.setTimeout(0);
   reporter.log({
   module: 'Check if Request for Complimentary Evaluation section is present',
